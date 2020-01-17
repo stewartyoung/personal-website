@@ -1,13 +1,10 @@
-import Header from "./header";
+import Layout from "../components/layout";
 
 const About = () => {
     return (
-        <>
-            <Header>
-            
-            </Header>
+        <Layout>
             <p>This is the about page</p>
-        </>
+        </Layout>
     );
 }
 
