@@ -1,8 +1,13 @@
+import Header from "./header";
+
 const About = () => {
     return (
-        <div>
+        <>
+            <Header>
+            
+            </Header>
             <p>This is the about page</p>
-        </div>
+        </>
     );
 }
 
